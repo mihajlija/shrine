@@ -23,6 +23,7 @@ class App extends Component {
   render() {
     return (
       <div className="app-wrapper">
+        <img src="https://media.giphy.com/media/rqyjwPKFK0VGM/giphy.gif" />
         <Route exact path="/" component={AsyncLanding} />
         <Route exact path="/category/:category" component={AsyncLanding} />
         <Route exact path="/category/:category/:id" component={AsyncItemView} />

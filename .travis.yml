@@ -4,7 +4,7 @@ node_js:
 install:
  - npm install
 before_script:
- - npm install babel-runtime --save
+ - npm install @babel/runtime
 script:
  - npm run build
 after_success:
